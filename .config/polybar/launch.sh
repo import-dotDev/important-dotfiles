@@ -2,5 +2,8 @@
 
 killall -q polybar
 echo "starting"
-polybar & disown
+polybar menu & disown
+polybar workspaces & disown
+polybar topbar & disown
+polybar screenshot & disown
 echo "LAUNCHED"
